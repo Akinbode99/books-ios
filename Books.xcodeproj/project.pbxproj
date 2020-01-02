@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04080C0E23BE0FD30098B76F /* bg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04080C0D23BE0FD30098B76F /* bg.pdf */; };
+		040F4B4D23BE34600032D9AA /* IMG_4936.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 040F4B4C23BE34600032D9AA /* IMG_4936.PNG */; };
+		040F4B4F23BE34720032D9AA /* IMG_4935.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 040F4B4E23BE34720032D9AA /* IMG_4935.PNG */; };
 		04EE046323B0F3910017A006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE046223B0F3910017A006 /* AppDelegate.swift */; };
 		04EE046523B0F3910017A006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE046423B0F3910017A006 /* SceneDelegate.swift */; };
 		04EE046723B0F3910017A006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE046623B0F3910017A006 /* ViewController.swift */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04080C0D23BE0FD30098B76F /* bg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bg.pdf; path = ../../Downloads/bg.pdf; sourceTree = "<group>"; };
+		040F4B4C23BE34600032D9AA /* IMG_4936.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_4936.PNG; path = ../../../../Downloads/IMG_4936.PNG; sourceTree = "<group>"; };
+		040F4B4E23BE34720032D9AA /* IMG_4935.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_4935.PNG; path = ../../../../Downloads/IMG_4935.PNG; sourceTree = "<group>"; };
 		04EE045F23B0F3910017A006 /* Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE046223B0F3910017A006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EE046423B0F3910017A006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		040F4B4B23BE34250032D9AA /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				040F4B4E23BE34720032D9AA /* IMG_4935.PNG */,
+				040F4B4C23BE34600032D9AA /* IMG_4936.PNG */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		04EE045623B0F3900017A006 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +121,6 @@
 				04EE047B23B0F3930017A006 /* BooksTests */,
 				04EE048623B0F3930017A006 /* BooksUITests */,
 				04EE046023B0F3910017A006 /* Products */,
-				04080C0D23BE0FD30098B76F /* bg.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +137,7 @@
 		04EE046123B0F3910017A006 /* Books */ = {
 			isa = PBXGroup;
 			children = (
+				040F4B4B23BE34250032D9AA /* screenshots */,
 				04080C0623BDFB990098B76F /* Controller */,
 				04080C0523BDFB930098B76F /* Model */,
 				04080C0423BDFB8B0098B76F /* View */,
@@ -263,9 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EE047223B0F3920017A006 /* LaunchScreen.storyboard in Resources */,
+				040F4B4D23BE34600032D9AA /* IMG_4936.PNG in Resources */,
+				040F4B4F23BE34720032D9AA /* IMG_4935.PNG in Resources */,
 				04EE046F23B0F3920017A006 /* Assets.xcassets in Resources */,
 				04EE046A23B0F3910017A006 /* Main.storyboard in Resources */,
-				04080C0E23BE0FD30098B76F /* bg.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.partum.Books;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -494,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.partum.Books;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
